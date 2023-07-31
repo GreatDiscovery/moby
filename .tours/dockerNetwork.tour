@@ -9,6 +9,18 @@
       "description": "真正分配ip地址的地方",
       "file": "allocator.go",
       "line": 227
+    },
+    {
+      "title": "allocator.go:352",
+      "description": "计算出子网下的开始和结束ip",
+      "file": "allocator.go",
+      "line": 352
+    },
+    {
+      "title": "sequence.go:184",
+      "description": "在range范围内，随机设置一个bit位来分配一个新的ip",
+      "file": "sequence.go",
+      "line": 184
     }
   ]
 }
