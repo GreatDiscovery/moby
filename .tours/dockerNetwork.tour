@@ -1,0 +1,50 @@
+{
+  "id": "5a34dec8-bbde-4030-9238-5a59a9f7a771",
+  "tourFile": "dockerNetwork.tour",
+  "title": "docker network",
+  "description": "A New Tour",
+  "steps": [
+    {
+      "title": "endpoint.go:1061",
+      "description": "开始分配ip",
+      "file": "endpoint.go",
+      "line": 1061
+    },
+    {
+      "title": "allocator.go:227",
+      "description": "真正分配ip地址的地方",
+      "file": "allocator.go",
+      "line": 227
+    },
+    {
+      "title": "allocator.go:352",
+      "description": "计算出子网下的开始和结束ip",
+      "file": "allocator.go",
+      "line": 352
+    },
+    {
+      "title": "sequence.go:184",
+      "description": "在range范围内，随机设置一个bit位来分配一个新的ip",
+      "file": "sequence.go",
+      "line": 184
+    },
+    {
+      "title": "network.go:1171",
+      "description": "创建endpoint",
+      "file": "network.go",
+      "line": 1171
+    },
+    {
+      "title": "container_operations.go:726",
+      "description": "创建endpoint、初始化网络相关配置",
+      "file": "container_operations.go",
+      "line": 726
+    },
+    {
+      "title": "container_operations.go:609",
+      "description": "使用walk方式，来遍历某个集合中的对象，值得借鉴学习",
+      "file": "container_operations.go",
+      "line": 609
+    }
+  ]
+}
