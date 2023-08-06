@@ -45,6 +45,18 @@
       "description": "使用walk方式，来遍历某个集合中的对象，值得借鉴学习",
       "file": "container_operations.go",
       "line": 609
+    },
+    {
+      "title": "start.go:155",
+      "description": "创建spec文件",
+      "file": "start.go",
+      "line": 155
+    },
+    {
+      "title": "oci_linux.go:1077",
+      "description": "真正的spec定义，可以看出很多参数都有特定的意义",
+      "file": "oci_linux.go",
+      "line": 1077
     }
   ]
 }
